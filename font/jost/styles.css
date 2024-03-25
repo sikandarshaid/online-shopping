@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Jost-VariableFont_wght';
+  src: url(./Jost-VariableFont_wght.eot);
+  src: url(./Jost-VariableFont_wght.eot?#iefix) format('embedded-opentype'),
+       url(./Jost-VariableFont_wght.svg#Jost-VariableFont_wght) format('svg'),
+       url(./Jost-VariableFont_wght.ttf) format('truetype'),
+       url(./Jost-VariableFont_wght.woff) format('woff');
+}

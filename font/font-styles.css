@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'ProtestStrike-Regular';
+  src: url(protest-strike-font/ProtestStrike-Regular.eot) format('embedded-opentype'),
+       url(protest-strike-font/ProtestStrike-Regular.svg) format('svg'),
+       url(protest-strike-font/ProtestStrike-Regular.ttf) format('truetype'),
+       url(protest-strike-font/ProtestStrike-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(poppins-font/Poppins-Regular.eot) format('embedded-opentype'),
+       url(poppins-font/Poppins-Regular.svg) format('svg'),
+       url(poppins-font/Poppins-Regular.ttf) format('truetype'),
+       url(poppins-font/Poppins-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Jost-VariableFont_wght';
+  src: url(jost/Jost-VariableFont_wght.eot) format('embedded-opentype'),
+       url(jost/Jost-VariableFont_wght.svg) format('svg'),
+       url(jost/Jost-VariableFont_wght.ttf) format('truetype'),
+       url(jost/Jost-VariableFont_wght.woff) format('woff');
+}
+
+

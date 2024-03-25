@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ===Typo-Graphy-Start=== */
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    text-align: justify;
+    margin: 0;
+}
+h1{
+    font-family: 'ProtestStrike-Regular';
+    font-size: 90px;
+    font-weight: 400;
+    color: #0B6155;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+h1 span{
+    color: #EC5028;
+}
+h2{
+    font-family: 'ProtestStrike-Regular';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.m-btn{
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 14.5px;
+    background: #EC5028;
+    border-radius: 10px;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+.m-btn i{
+    margin-left: 10px;
+    padding: 8px;
+    background: #610B0B36;
+    border-radius: 5px;
+}
+.m-btn:hover{
+    color: #FFF;
+    background: #0B6155;
+}
+.m-btn:hover i{
+    scale: 1.1;
+}
+.m-btn-two{
+    background: transparent;
+    border: 1px solid #000000CC;
+    color: #000000CC;
+}
+.m-btn-two i{
+    background: transparent;
+}
+/* =====================Header-Start=================== */
+header nav{
+    padding: 30px 0 60px !important;
+}
+header nav .navbar-nav{
+    margin-left: 60px !important;
+}
+header nav ul li a{
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 24px;
+    color: #000000CC !important;
+    text-transform: capitalize;
+    transition: .5s;
+}
+header nav ul li .active-link, header nav ul li a:hover{
+    color: #EC5028 !important;
+}
+header nav .search-button a{
+    font-family: 'Jost-VariableFont_wght';
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px 0px #00000012;
+    background: #0B6155;
+    padding: 10px 12px;
+    border-radius: 3px;
+    display: inline-block;
+}
+header nav .search-button a i{
+    margin-right: 10px;
+    transition: .5s;
+}
+/* ======hero-banner====== */
+.hero-banner{
+    padding-bottom: 80px;
+}
+.hero-banner-content p{
+    margin: 48px 0;
+}
+.hero-banner-content .shop-learn-btn .m-btn-two{
+    margin-left: 24px;
+}
+.hero-banner .fashion-content{
+    background: url(../image/hero-banner-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center end;
+    height: 100%;
+    width: 100%;
+}
+.fashion-content .elipse-one{ 
+    position: relative;
+}
+
+.fashion-content .elipse-one img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
